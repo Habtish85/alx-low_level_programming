@@ -1,4 +1,4 @@
-#include <iostd.h>
+#include <stdio.h>
 /**
  * main - this program prints  the alphabet, without using printf or put
  * Return: 0  is correct
