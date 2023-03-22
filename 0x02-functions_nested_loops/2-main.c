@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * main - Entry point 
  * print_alphabet_10 - check the code
