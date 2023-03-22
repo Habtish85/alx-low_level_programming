@@ -8,27 +8,27 @@
 
 int main(void)
 {
-    int r;
+    int d;
 
-    r = print_sign(98);
+    d = print_sign(98);
     _putchar(',');
     _putchar(' ');
-    _putchar(r + '0');
+    _putchar(d + '0');
     _putchar('\n');
-    r = print_sign(0);
+    d = print_sign(0);
     _putchar(',');
     _putchar(' ');
-    _putchar(r + '0');
+    _putchar(d + '0');
     _putchar('\n');
-    r = print_sign(0xff);
+    d = print_sign(0xff);
     _putchar(',');
     _putchar(' ');
-    _putchar(r + '0');
+    _putchar(d + '0');
     _putchar('\n');
-    r = print_sign(-1);
+    d = print_sign(-1);
     _putchar(',');
     _putchar(' ');
-    _putchar(r + '0');
+    _putchar(d + '0');
     _putchar('\n');
     return (0);
 }
