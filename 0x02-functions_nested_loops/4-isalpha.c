@@ -11,7 +11,7 @@ int _isalpha(int d)
 {
 	if ((d >= 65 && d >= 97) || (d >= 97 && d <= 122))
 	{
-		return (1);
+	return (1);
 	}
 	return (0);
 }
