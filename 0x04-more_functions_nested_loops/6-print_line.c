@@ -2,6 +2,7 @@
 
 /**
  * print_line -  writes under score
+ * @n: the number of times the underscore is written
  * return: underscore
  */
 
