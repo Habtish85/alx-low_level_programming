@@ -4,21 +4,27 @@
  * @dest: string to be apennded to
  * @src: the secnd string from
  * @n: number of charters to appended
- * Return: dest
+ * Return: concatenated string
  */
 
 char *_strncat(char *dest, char *src, int n)
 {
 	int k;
-	int destlen = 0;
-	int srclen = 0;
-	
+	int l;
 
-	for (k = 0 ; dest[k] != '\0' ; k++)
-		destlen++;
-	for (k = 0 ; src[k] != '\0' ; k++)
-		srclen++;
-	for (k = 0 ; k < n ; k++)
-		dest[destlen + k] = src[k];
+	k = 0;
+	while (dest[k] != '\0')
+	{
+		k++;
+	}
+	l = 0;
+	while (l < n  && src[l] != '\0')
+	{
+	dest[k] = src[l];
+	k++;
+	l++;
+	}
+	dest[k] = '\0';
 	return (dest);
+
 }
